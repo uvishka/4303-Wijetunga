@@ -6,7 +6,7 @@ pipeline {
         
         stage('Dockerize the application') {
             steps {
-                sh "echo '9900' | sudo -S  docker build -t frontend . -S"
+                sh "echo '9900' | sudo -S  docker build -t frontend ."
             }
         }
         
