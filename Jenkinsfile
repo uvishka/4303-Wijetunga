@@ -6,7 +6,7 @@ pipeline {
         
         stage('Dockerize the application') {
             steps {
-                sh 'docker build -t frontend .'
+                sh 'sudo docker build -t frontend .'
             }
         }
         
